@@ -1,0 +1,34 @@
+.container {
+  width: auto;
+  margin: auto;
+  text-align: center;
+  font-family: Arial;
+}
+
+.search-bar, .input-area input {
+  width: 70%;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+.input-area button {
+  padding: 10px 20px;
+}
+
+.note {
+  background-color: #f9f9a9;
+  padding: 10px;
+  margin: 10px;
+  position: relative;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.note button {
+  background: red;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+}
