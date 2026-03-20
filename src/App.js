@@ -42,7 +42,8 @@ function App() {
         <button onClick={addNote}>Add</button>
       </div>
       <div className="notes-list">
-        {filteredNotes.map((note, index) => (<Note key={index} text={note} onDelete={() => deleteNote(index)} />
+        {filteredNotes.map((note, index) => (
+          <Note key={index} text={note} onDelete={() => deleteNote(index)} />
         ))}
       </div>
     </div>
